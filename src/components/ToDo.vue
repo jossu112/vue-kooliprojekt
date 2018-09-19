@@ -1,9 +1,9 @@
 <template>
     <div class="row m-3">
         <div class="col-12 input-group mb-3">
-            <input class="form-control" type="text" v-model="newTODO">
+            <input @keyup.enter="addTODO" class="form-control" type="text" v-model="newTODO">
             <span class="input-group-append">
-                <button class="btn btn-secondary" @click="addTODO()">Add TODO</button>
+                <button class="btn btn-secondary" @click="addTODO">Add TODO</button>
             </span>
         </div>
         <div class="col-6">
