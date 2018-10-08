@@ -4,18 +4,19 @@
 
 ## Build Setup
 
-``` bash
-# install dependencies
-npm install
+1. Git clone repositoorium kuhugi kausta ning navigeeri sinna samasse kausta:
+   ```bash
+   git clone https://github.com/rasmusaaviste/vue-kooliprojekt.git && cd vue-kooliprojekt
+   ```  
+2. Installi arvutisse NPM, https://www.npmjs.com/get-npm
+3. Samas kaustas vaja sisestada järgmised käsklused:
 
-# serve with hot reload at localhost:8080
-npm run dev
+   ```bash
+   npm install vue
+   
+   npm install
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+   npm run dev
+   ```  
+   
+4. Ava brauseris localhost:8080/#/todo
