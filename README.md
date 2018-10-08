@@ -19,4 +19,4 @@
    npm run dev
    ```  
    
-4. Ava brauseris localhost:8080/#/todo
+4. Ava brauseris localhost:8080/
